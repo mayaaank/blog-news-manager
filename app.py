@@ -7,7 +7,7 @@ def home():
     return render_template('public/index.html')
 
 @app.route('/admin/login')
-def login():
+def admin_login():
     return render_template('admin/login.html')
 
 if __name__ == '__main__':
