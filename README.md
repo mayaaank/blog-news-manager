@@ -15,29 +15,12 @@ A  blog management system built with **Flask** and **PostgreSQL**, supporting bo
 
 ## 🗂️ Project Structure
 
-📦blog-manager/
-┣ 📂admin/ → Admin routes & templates
-┃ ┣ 📜__init__.py
-┃ ┣ 📜routes.py
-┃ ┗ 📂templates/admin/
-┃ ┣ create.html
-┃ ┣ dashboard.html
-┃ ┣ edit.html
-┃ ┗ login.html
-┣ 📂public/ → Public routes & templates
-┃ ┣ 📜__init__.py
-┃ ┣ 📜routes.py
-┃ ┣ 📂static/css/
-┃ ┃ ┗ style.css
-┃ ┗ 📂templates/public/
-┃ ┗ index.html
-┣ 📂templates/
-┃ ┗ base.html → Common base template
-┣ 📜app.py
-┗ 📜README.md → This file
+<pre> 📦 <strong>blog-manager/</strong> ┣ 📂 <strong>public/</strong> ┃ ┣ 📂 <strong>static/</strong> ┃ ┃ ┗ 📂 <strong>css/</strong> ┃ ┃ ┃ ┗ 📄 style.css ┃ ┣ 📂 <strong>templates/</strong> ┃ ┃ ┗ 📂 <strong>public/</strong> ┃ ┃ ┃ ┗ 📄 index.html ┃ ┣ 📂 __pycache__/ ┃ ┃ ┣ 📄 routes.cpython-313.pyc ┃ ┃ ┗ 📄 __init__.cpython-313.pyc ┃ ┣ 📄 routes.py ┃ ┗ 📄 __init__.py ┣ 📂 <strong>templates/</strong> ┃ ┗ 📄 base.html ┣ 📄 app.py ┣ 📄 requirements.txt ┣ 📄 README.md ┣ 📄 .gitignore </pre>
+
 
 ## 🛠️ Setup Instructions
 
+## ⚙️ Setup Instructions
 ## ⚙️ Setup Instructions
 
 1. **Create virtual environment & activate**
@@ -45,21 +28,13 @@ A  blog management system built with **Flask** and **PostgreSQL**, supporting bo
 ```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
-Install dependencies
 
-bash
-Copy
-Edit
+
+2.Install dependencies
 pip install -r requirements.txt
-Run the Flask app
 
-bash
-Copy
-Edit
+3.Run the Flask app
 python app.py
-Visit in browser
 
-url
-Copy
-Edit
+4.Visit in browser
 http://127.0.0.1:5000
