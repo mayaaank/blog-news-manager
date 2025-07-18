@@ -13,34 +13,7 @@ A  blog management system built with **Flask** and **PostgreSQL**, supporting bo
 
 ---
 
-## 🗂️ Project Structure
-
-blog-manager/
-├── public/
-│   ├── static/
-│   │   └── css/
-│   │       └── style.css
-│   ├── templates/
-│   │   └── public/
-│   │       └── index.html
-│   ├── __pycache__/
-│   │   ├── routes.cpython-313.pyc
-│   │   └── __init__.cpython-313.pyc
-│   ├── routes.py
-│   └── __init__.py
-├── templates/
-│   └── base.html
-├── app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-
-
 ## 🛠️ Setup Instructions
-
-## ⚙️ Setup Instructions
-## ⚙️ Setup Instructions
 
 1. **Create virtual environment & activate**
 
