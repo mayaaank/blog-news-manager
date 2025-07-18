@@ -15,7 +15,26 @@ A  blog management system built with **Flask** and **PostgreSQL**, supporting bo
 
 ## 🗂️ Project Structure
 
-<pre> 📦 <strong>blog-manager/</strong> ┣ 📂 <strong>public/</strong> ┃ ┣ 📂 <strong>static/</strong> ┃ ┃ ┗ 📂 <strong>css/</strong> ┃ ┃ ┃ ┗ 📄 style.css ┃ ┣ 📂 <strong>templates/</strong> ┃ ┃ ┗ 📂 <strong>public/</strong> ┃ ┃ ┃ ┗ 📄 index.html ┃ ┣ 📂 __pycache__/ ┃ ┃ ┣ 📄 routes.cpython-313.pyc ┃ ┃ ┗ 📄 __init__.cpython-313.pyc ┃ ┣ 📄 routes.py ┃ ┗ 📄 __init__.py ┣ 📂 <strong>templates/</strong> ┃ ┗ 📄 base.html ┣ 📄 app.py ┣ 📄 requirements.txt ┣ 📄 README.md ┣ 📄 .gitignore </pre>
+blog-manager/
+├── public/
+│   ├── static/
+│   │   └── css/
+│   │       └── style.css
+│   ├── templates/
+│   │   └── public/
+│   │       └── index.html
+│   ├── __pycache__/
+│   │   ├── routes.cpython-313.pyc
+│   │   └── __init__.cpython-313.pyc
+│   ├── routes.py
+│   └── __init__.py
+├── templates/
+│   └── base.html
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 
 
 ## 🛠️ Setup Instructions
