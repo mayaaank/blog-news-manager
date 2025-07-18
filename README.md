@@ -38,28 +38,28 @@ A  blog management system built with **Flask** and **PostgreSQL**, supporting bo
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mayaaank/blog-news-manager.git
-   cd blog-news-manager
-Create & activate virtual environment
+## ⚙️ Setup Instructions
 
-bash
-Copy
-Edit
+1. **Create virtual environment & activate**
+
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # For Windows: venv\Scripts\activate
 Install dependencies
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Configure PostgreSQL and environment variables
-
-Run the app
+Run the Flask app
 
 bash
 Copy
 Edit
 python app.py
+Visit in browser
+
+url
+Copy
+Edit
+http://127.0.0.1:5000
