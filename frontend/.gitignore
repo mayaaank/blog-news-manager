@@ -1,0 +1,53 @@
+# --------------------------------------
+# ✅ Build outputs
+dist
+dist-ssr
+build
+*.local
+
+# --------------------------------------
+# ✅ Node.js dependencies
+node_modules
+
+# --------------------------------------
+# ✅ Vite / Temp files
+.vite
+.cache
+*.tsbuildinfo
+
+# --------------------------------------
+# ✅ Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --------------------------------------
+# ✅ OS-specific / Editor-specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / Rider
+.idea
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac system
+.AppleDouble
+.LSOverride
+
+# Windows system
+ehthumbs.db
+Desktop.ini

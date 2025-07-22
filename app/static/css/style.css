@@ -1,0 +1,40 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px; /* space below navbar */
+  padding: 50px;
+  background: #FFFFFC;
+  border-radius: 20px;
+  box-shadow: inset 4px 4px 10px #e0e0e0, inset -4px -4px 10px #ffffff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  color: #06004F;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0D75FF;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero-image img {
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}

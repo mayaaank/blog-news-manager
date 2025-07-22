@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Civora Blog</title>
+
+
+  <!-- Link to global and navbar CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+</head>
+<body>
+  <!-- ✅ Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="nav-logo" />
+      <span class="brand-name">Civora</span>
+    </div>
+
+    <div class="nav-right">
+      <a href="/" class="nav-link">Home</a>
+
+      <div class="nav-dropdown">
+        <button class="nav-link dropdown-toggle">Category ▾</button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Article</a>
+          <a href="#" class="dropdown-item">Blog</a>
+          <a href="#" class="dropdown-item">News</a>
+          <a href="#" class="dropdown-item">Case Study</a>
+          <a href="#" class="dropdown-item">Research</a>
+          <a href="#" class="dropdown-item">Video/Podcast</a>
+          <a href="#" class="dropdown-item">Events</a>
+        </div>
+      </div>
+
+      <a href="#about" class="nav-link">About</a>
+
+      <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search..." />
+        <button class="search-btn">🔍</button>
+      </div>
+
+      <a href="/login" class="nav-button login-btn">Login</a>
+      <a href="/register" class="nav-button register-btn">Register</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-grid">
+    <!-- Left: Text Content -->
+    <div class="hero-text">
+      <h1>Explore Ideas. Read. Grow.</h1>
+      <p>Welcome to <span class="highlight">TechSphere</span> — your hub for tech blogs, research, events, and insights.</p>
+      <a href="#recent-posts" class="hero-btn">Discover Blogs</a>
+    </div>
+
+    <!-- Right: Hero Image -->
+    <div class="hero-img">
+      <img src="{{ url_for('static', filename='images/hero-placeholder.png') }}" alt="Hero Image">
+    </div>
+  </div>
+</section>
+
+  <!-- ✅ Dynamic content block -->
+  {% block content %}{% endblock %}
+
+  <!-- JS Script -->
+<script src="{{ url_for('static', filename='js/shared/navbar.js') }}"></script>
+
+
+</body>
+</html>
